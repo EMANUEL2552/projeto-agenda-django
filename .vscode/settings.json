@@ -1,0 +1,27 @@
+{
+    "terminal.integrated.fontFamily": "monospace",
+    "files.autoSave": "afterDelay",
+    "python.linting.flake8Enabled": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "powermode.enabled": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.fontSize": 20,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.zoomLevel": -1,
+    "[python]": {
+        "editor.formatOnType": true
+        
+        
+    },
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+    "liveServer.settings.useLocalIp": true,
+    "workbench.colorTheme": "Dracula"
+
+    
+    
+}
