@@ -12,3 +12,10 @@ class ContactAdmin(admin.ModelAdmin):
     list_max_show_all = 200  # quantidade maxima que vc quer por pagina
     list_editable = 'first_name', 'last_name',  # campos para ediçao diretamente na pagina
     list_display_links = 'phone', 'id',  # campos que pode ser links
+    
+    
+@admin.register(models.Category)
+class CategoryAdmin(admin.ModelAdmin):
+    list_display = 'name',
+    ordering = 'id',  # escolha do campo para ordenação
+        
