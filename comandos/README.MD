@@ -16,3 +16,4 @@ python manage.py startapp contact
 python manage.py migrate
 python manage.py createsuperuser
 python manage.py changepassword 
+.\venv\Scripts\activate ---ativar o ambiente virtual
